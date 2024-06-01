@@ -1,8 +1,8 @@
 import Head from "next/head";
-import { Inter } from "next/font/google";
-import "./globals.css";
 import '@fortawesome/fontawesome-free/css/all.min.css';
-
+import { Inter } from "next/font/google";
+import Script from "next/script";
+import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,15 +15,23 @@ export default function RootLayout({ children }) {
   return (
     <html data-wf-page="66095c4f9765fb9eae51e7eb" data-wf-site="">
       <Head>
-      <script
-   
-    src="https://kit.fontawesome.com/fbadad80a0.js"
-    crossOrigin="anonymous"
-  ></script>        <title>{metadata.title}</title>
+        <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
       </Head>
       <body className={inter.className}>
         {children}
+        <Script
+          src="https://code.jquery.com/jquery-3.5.1.min.js"
+          integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+          crossOrigin="anonymous"
+          strategy="lazyOnload"
+        />
+        <Script src="/main.js" strategy="lazyOnload" />
+        <Script
+          src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
+          type="text/javascript"
+          strategy="lazyOnload"
+        />
       </body>
     </html>
   );

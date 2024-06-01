@@ -175,13 +175,7 @@ export default function Home() {
   
      <Talk /> 
      <Footer />
-      <script
-        src="https://code.jquery.com/jquery-3.5.1.min.js"
-        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-        crossOrigin="anonymous"
-      ></script>
-      <Script src="/main.js" strategy="lazyOnload" />
-      <Script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript" strategy="lazyOnload" />
+      
       
     </main>
   );
