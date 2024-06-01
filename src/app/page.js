@@ -5,6 +5,7 @@ import Script from "next/script";
 import Demo from "./components/Demo";
 import Imagenes from "./components/Imagenes";
 import Talk from "./components/Talk";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -171,7 +172,9 @@ export default function Home() {
       <Banner />
       <Demo />
       <Imagenes />
+  
      <Talk /> 
+     <Footer />
       <script
         src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="

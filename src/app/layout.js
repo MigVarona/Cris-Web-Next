@@ -1,7 +1,8 @@
 import Head from "next/head";
-
 import { Inter } from "next/font/google";
 import "./globals.css";
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,14 +15,16 @@ export default function RootLayout({ children }) {
   return (
     <html data-wf-page="66095c4f9765fb9eae51e7eb" data-wf-site="">
       <Head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
-     
-
+      <script
    
- </Head>
-      <body
-       className={inter.className}>{children}</body>
+    src="https://kit.fontawesome.com/fbadad80a0.js"
+    crossOrigin="anonymous"
+  ></script>        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+      </Head>
+      <body className={inter.className}>
+        {children}
+      </body>
     </html>
   );
 }
