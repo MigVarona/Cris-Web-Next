@@ -3,6 +3,8 @@ import Hero from "./components/Hero";
 import Banner from "./components/Banner";
 import Script from "next/script";
 import Demo from "./components/Demo";
+import Imagenes from "./components/Imagenes";
+import Talk from "./components/Talk";
 
 export default function Home() {
   return (
@@ -168,6 +170,8 @@ export default function Home() {
       <Hero />
       <Banner />
       <Demo />
+      <Imagenes />
+     <Talk /> 
       <script
         src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="

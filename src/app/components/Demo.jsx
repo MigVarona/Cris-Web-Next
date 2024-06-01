@@ -21,10 +21,10 @@ function Demo() {
               <video 
                 id="581a8698-499a-99d3-47af-e9d075f350bf-video" 
                 autoPlay={true} 
-                loop="" 
+                loop={true}  
                 style={{backgroundImage: "url(/reel-protada-RED.jpg)"}} 
                 muted={true} 
-                playsInline=""
+                playsInline="cover"
                 data-wf-ignore={true} 
               >
                 <source src="/demo reel loop v03.mp4" data-wf-ignore={true}  />
