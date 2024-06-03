@@ -24142,7 +24142,7 @@ Webflow.require("ix2").init({
       id: "e-3083",
       name: "",
       animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
+      eventTypeId: "",
       action: {
         id: "",
         actionTypeId: "SLIDE_EFFECT",
@@ -24834,7 +24834,7 @@ Webflow.require("ix2").init({
       id: "e-3129",
       name: "",
       animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
+      eventTypeId: "",
       action: {
         id: "",
         actionTypeId: "SLIDE_EFFECT",
@@ -24869,7 +24869,7 @@ Webflow.require("ix2").init({
       id: "e-3131",
       name: "",
       animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
+      eventTypeId: "",
       action: {
         id: "",
         actionTypeId: "SLIDE_EFFECT",
@@ -24904,7 +24904,7 @@ Webflow.require("ix2").init({
       id: "e-3133",
       name: "",
       animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
+      eventTypeId: "",
       action: {
         id: "",
         actionTypeId: "SLIDE_EFFECT",
@@ -24939,7 +24939,7 @@ Webflow.require("ix2").init({
       id: "e-3135",
       name: "",
       animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
+      eventTypeId: "",
       action: {
         id: "",
         actionTypeId: "SLIDE_EFFECT",
@@ -24974,7 +24974,7 @@ Webflow.require("ix2").init({
       id: "e-3137",
       name: "",
       animationType: "preset",
-      eventTypeId: "SCROLL_INTO_VIEW",
+      eventTypeId: "",
       action: {
         id: "",
         actionTypeId: "SLIDE_EFFECT",

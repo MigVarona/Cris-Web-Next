@@ -7,19 +7,19 @@ function Hero() {
         <div className="home-banner-section">
   <div className="hero-1">
     <div data-w-id="dade728e-c94b-1751-0e9e-0bff99516276" className="overflow">
-      <div data-w-id="1389cbe7-036f-41ac-6a89-5caf56b8be7f" style={{ opacity: 0 }} className="heading-banner-1">
+      <div data-w-id="1389cbe7-036f-41ac-6a89-5caf56b8be7f"  className="heading-banner-1">
         Cristina
       </div>
     </div>
     <div data-w-id="14703866-07cc-c290-1e70-2760606a46f9" className="overflow">
-      <h1 data-w-id="14703866-07cc-c290-1e70-2760606a46fa" style={{ opacity: 0 }} className="heading-banner-1">
+      <h1 data-w-id="14703866-07cc-c290-1e70-2760606a46fa"  className="heading-banner-1">
         Gomez
       </h1>
     </div>
   </div>
   <div className="hero-multiply">
     <div className="overflow">
-      <div data-w-id="9dd5b4e6-c80a-f45c-cbb4-685676604bfd" style={{ opacity: 0 }} className="heading-banner-1 multiply">
+      <div data-w-id="9dd5b4e6-c80a-f45c-cbb4-685676604bfd" className="heading-banner-1 multiply">
         Video editor
       </div>
     </div>
@@ -44,6 +44,10 @@ function Hero() {
       </div>
     </div>
   </div>
+	<script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=66095c4f9765fb9eae51e781"
+		type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+		crossOrigin="anonymous"></script>
+    
 </div>
 
      );

@@ -5300,7 +5300,7 @@ c {
 }
 
 .hero-1 {
-  z-index: 99;
+  z-index: 999;
   background-color: var(--black);
   flex-flow: column;
   flex: 1;
@@ -5317,7 +5317,6 @@ c {
   justify-content: center;
   align-items: center;
   display: flex;
-  overflow: hidden;
 }
 
 .heading-banner-1 {
