@@ -65,9 +65,10 @@ function Header() {
                           </div>
                         </a>
                       </div>
+                      <a href="/about">
                       <div className="btn-banner-text button-text-bottom">
                         <div className="btn-title-text">About Me +</div>
-                      </div>
+                      </div></a>
                     </div>
                   </div>
                 </div>
@@ -93,7 +94,7 @@ function Header() {
                   <nav className="nav-dropdown-list w-dropdown-list">
                     <div className="nav-dropdown-link-wrapper">
                       <a
-                        href="education.html"
+                        href="/education"
                         className="nav-dropdown-link w-dropdown-link"
                       >
                         <span className="nav-dropdown-link-line"></span>

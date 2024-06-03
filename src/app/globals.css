@@ -6324,7 +6324,7 @@ c {
 }
 
 .navbar-transparent {
-  background-color: var(--black);
+  background-color: transparent;
   width: 100%;
   padding-top: 15px;
   padding-bottom: 15px;

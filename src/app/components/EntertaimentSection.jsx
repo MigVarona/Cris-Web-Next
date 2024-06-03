@@ -40,7 +40,7 @@ function EntertaimentSection() {
             >
               <div role="list" className="collection-list w-dyn-items">
                 <div
-                  data-w-id="245835ba-a1e9-5844-e03c-295d6d973b68"
+                  data-w-id=""
                   style={{ opacity: 100 }}
                   role="listitem"
                   className="collection-item-small w-dyn-item"
@@ -90,7 +90,7 @@ function EntertaimentSection() {
             >
               <div role="list" className="collection-list w-dyn-items">
                 <div
-                  data-w-id="245835ba-a1e9-5844-e03c-295d6d973b68"
+                  data-w-id=""
                   style={{ opacity: 100 }}
                   role="listitem"
                   className="collection-item-small w-dyn-item"
