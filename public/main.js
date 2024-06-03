@@ -24167,7 +24167,7 @@ Webflow.require("ix2").init({
         playInReverse: false,
         scrollOffsetValue: 0,
         scrollOffsetUnit: "%",
-        delay: 250,
+        delay: false,
         direction: "BOTTOM",
         effectIn: true,
       },
